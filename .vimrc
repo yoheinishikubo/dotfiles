@@ -1,8 +1,3 @@
-inoremap { {}<Left>
-inoremap {<Enter> {}<Left><CR><ESC><S-o>
-inoremap ( ()<ESC>i
-inoremap (<Enter> ()<Left><CR><ESC><S-o>
-
 call plug#begin('~/.vim/plugged')
 Plug 'ternjs/tern_for_vim', {'dir': '.vim/plugged/tern_for_vim', 'do': 'npm install'}
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
